@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Tutorial Ninja Automation">
+  <test thread-count="5" name="Tutorial Ninja Test Cases">
+    <classes>
+      <class name="com.tutorialninja.qa.testcases.Register"/>
+      <class name="com.tutorialninja.qa.testcases.Login"/>
+      <class name="com.tutorialninja.qa.testcases.Search"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
